@@ -1,0 +1,173 @@
+/* ====== 1 Прижать футер */
+/* 1) */
+html, body {
+  height: 100%;
+  background-color: $body-bg;
+}
+
+/* 2) */
+.main-container {
+  min-height: 100%;
+}
+
+/* 3) + цвет фона + центрирование содержимого*/
+footer {
+  height: 388px;
+  margin-top: -388px;
+}
+/* 4) */
+.clr {
+  height: 388px;
+}
+@media (max-width : 1024px) {
+  footer{
+    height: 250px;
+    margin-top: -250px;
+  }
+  .clr {
+    height: 250px;
+  }
+}
+@media (max-width : 768px) {
+  footer{
+    height: 290px;
+    margin-top: -290px;
+  }
+  .clr {
+    height: 290px;
+  }
+}
+@media (max-width : 480px) {
+  footer{
+    height: 200px;
+    margin-top: -200px;
+  }
+  .clr {
+    height: 200px;
+  }
+}
+// @media (max-width : 360px) {
+//   footer{
+//     height: 150px;
+//     margin-top: -150px;
+//   }
+//   .clr {
+//     height: 150px;
+//   }
+// }
+// конец правила для прижатия футера
+
+// ====== 2 стили ширина и границы сетки
+/* ширина/границы сетки */
+/* .g-colscr - сетка-колонки экрана */
+/* .g-rowpd - блок/строка отступы верх-низ */
+.g-colscr {
+  width: 91.45%; // 1756/1920
+  margin: 0 auto;
+  //outline: 1px solid rgb(216, 10, 10);
+  box-sizing: border-box;
+  //background-color: yellow;
+}
+@media (max-width : 1600px) {
+  .g-colscr {
+    width: 91%; // 1456/1600
+  }
+}
+@media (max-width : 1280px) {
+  .g-colscr {
+    width: 89.53%; // 1146/1280
+  }
+}
+@media (max-width : 1024px) {
+  .g-colscr {
+    width: 93.94%; // 962/1024
+  }
+}
+@media (max-width : 986px) {
+  .g-colscr {
+    width: 92.7%; // 712/768
+  }
+}
+@media (max-width : 480px) {
+  .g-colscr {
+    width: 88.33%; // 424/480
+  }
+}
+@media (max-width : 360px) {
+  .g-colscr {
+    width: 89.44%; // 322/360
+  }
+}
+
+// ====== 3 стили для отступов сверху-снизу секции
+/* 1) для блоков */
+.g-rowpd_header{
+  // padding-top: 20px;
+  // padding-bottom: 20px;
+}
+
+.g-rowpd_cover {
+  padding-top: 148px;
+  padding-bottom: 64px;
+}
+.g-rowpd_cases {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.g-rowpd_name {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.g-rowpd_name {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.g-rowpd_process {
+  padding-top: 120px;
+  padding-bottom: 0px;
+}
+.g-rowpd_contacts {
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+@media (max-width : 1600px) {
+  .g-rowpd_cover {
+    padding-top: 138px;
+    padding-bottom: 42px;
+  }
+}
+@media (max-width : 1280px) {
+  .g-rowpd_cover {
+    padding-top: 131px;
+  }
+}
+@media (max-width : 1024px) {
+  .g-rowpd_cover {
+    padding-top: 143px;
+    padding-bottom: 67px;
+  }
+  .g-rowpd_contacts {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width : 480px) {
+  .g-rowpd_cover {
+    padding-top: 130px;
+  }
+}
+@media (max-width : 360px) {
+  .g-rowpd_cover {
+    padding-top: 99px;
+  }
+}
+// ============================
+.hidden{
+  display: none;
+}
+.name1{
+  //background-color: #3b3b3b;
+  &-inner{
+    //padding-left: 50px;
+    //background-color: #676767;
+  }
+}
