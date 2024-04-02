@@ -1,11 +1,33 @@
 .first-font {
-  font-family: 'Tablon', 'Montserrat', Verdana, 'Geneva', sans-serif;
+  font-family: 'Unbounded', 'Montserrat', Verdana, 'Geneva', sans-serif;
 }
 
-.second-font {
-  font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
-}
+// .second-font {
+//   font-family: 'PT-Mono', 'Fira Mono', 'Lucida Console', 'Monaco', monospace;
+// }
 
 
 
 // ********************** h1
+p {
+  @extend .first-font;
+    font-size: 1em; //40px
+    font-weight: 400; //regular
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.025em;
+    color: $p-header;
+  }
+a {
+  @extend .first-font;
+    font-size: 1em; //40px
+    font-weight: 400; //regular
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.025em;
+    color: $desctop-menu-header;
+    text-decoration: none;
+    &:hover{
+      color: $desctop-menu-hover-header;
+    }
+  }
