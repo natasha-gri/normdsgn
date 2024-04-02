@@ -41,14 +41,6 @@ footer {
   box-sizing: border-box;
   //background-color: yellow;
 }
-.col-right{
-  display: flex;
-  justify-content: flex-end;
-}
-.col-right-inner{
-  width: 83%;
-  border-top: 1px solid $menu-border;
-}
 @media (max-width : 1600px) {
   .g-colscr {
     width: 91%; // 1456/1600
@@ -62,13 +54,6 @@ footer {
 @media (max-width : 1024px) {
   .g-colscr {
     width: 93.94%; // 962/1024
-  }
-  .col-right{
-    display: flex;
-    justify-content: flex-start;
-  }
-  .col-right-inner{
-    width: 100%;
   }
 }
 @media (max-width : 986px) {
@@ -93,69 +78,44 @@ footer {
   // padding-top: 20px;
   // padding-bottom: 20px;
 }
-
-.g-rowpd_cover {
-  padding-top: 148px;
-  padding-bottom: 64px;
-}
 .g-rowpd_cases {
+  // padding-top: 40px;
+  // padding-bottom: 50px;
+}
+// ========= правая колонка
+.col-right{
+  display: flex;
+  justify-content: flex-end;
+}
+.col-right-inner{
+  width: 83%;
   padding-top: 40px;
   padding-bottom: 50px;
+  border-top: 1px solid $menu-border;
 }
-.g-rowpd_name {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.g-rowpd_name {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.g-rowpd_process {
-  padding-top: 120px;
-  padding-bottom: 0px;
-}
-.g-rowpd_contacts {
-  padding-top: 120px;
-  padding-bottom: 50px;
-}
+
 @media (max-width : 1600px) {
-  .g-rowpd_cover {
-    padding-top: 138px;
-    padding-bottom: 42px;
-  }
+
 }
 @media (max-width : 1280px) {
-  .g-rowpd_cover {
-    padding-top: 131px;
-  }
+
 }
 @media (max-width : 1024px) {
-  .g-rowpd_cover {
-    padding-top: 143px;
-    padding-bottom: 67px;
+  .col-right{
+    display: flex;
+    justify-content: flex-start;
   }
-  .g-rowpd_contacts {
-    padding-bottom: 0px;
+  .col-right-inner{
+    width: 100%;
   }
 }
 @media (max-width : 480px) {
-  .g-rowpd_cover {
-    padding-top: 130px;
-  }
+
 }
 @media (max-width : 360px) {
-  .g-rowpd_cover {
-    padding-top: 99px;
-  }
+
 }
 // ============================
 .hidden{
   display: none;
-}
-.name1{
-  //background-color: #3b3b3b;
-  &-inner{
-    //padding-left: 50px;
-    //background-color: #676767;
-  }
 }

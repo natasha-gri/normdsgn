@@ -1,0 +1,14 @@
+.cases-cols{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  &-col{
+    width: calc((100% / 3) - 7px);
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+    background-color: $bg-cases;
+  }
+}

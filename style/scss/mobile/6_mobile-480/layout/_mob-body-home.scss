@@ -1,3 +1,8 @@
 @media (max-width: 480px){
-
+  .cases-cols{
+    &-col{
+      padding: 0px 0px 12px 0px;
+      row-gap: 9px;
+    }
+  }
 }
