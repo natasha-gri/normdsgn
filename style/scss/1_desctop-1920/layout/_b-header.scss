@@ -11,7 +11,7 @@
 }
 
 .header-inner{
-  height: 150px;
+  height: 134px;
   display: flex;
   justify-content: space-between;
   &-left{
@@ -19,11 +19,14 @@
     align-items: center;    
     position: relative;
     &__logo{
-      margin-right: 92px;
+      margin-right: 90px;
+    }
+    &__description{
+      margin-bottom: -38px;
     }
     &__desctop-menu{
       position: absolute;
-      top: 145px;
+      top: 156px;
       left: 0;
     }
 

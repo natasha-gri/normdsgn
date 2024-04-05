@@ -18,6 +18,15 @@ p {
     letter-spacing: 0.025em;
     color: $p-header;
   }
+footer p {
+    @extend .first-font;
+      font-size: 0.875em; //40px
+      font-weight: 400; //regular
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: 0.025em;
+      color: $p-header;
+    }
 a {
   @extend .first-font;
     font-size: 1em; //40px
