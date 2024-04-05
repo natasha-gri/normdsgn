@@ -19,15 +19,15 @@ footer {
 .clr {
   height: 66px;
 }
-// @media (max-width : 360px) {
-//   footer{
-//     height: 150px;
-//     margin-top: -150px;
-//   }
-//   .clr {
-//     height: 150px;
-//   }
-// }
+@media (max-width : 768px) {
+  footer{
+    height: 90px;
+    margin-top: -90px;
+  }
+  .clr {
+    height: 90px;
+  }
+}
 // конец правила для прижатия футера
 
 // ====== 2 стили ширина и границы сетки
@@ -98,7 +98,9 @@ footer {
 
 }
 @media (max-width : 1280px) {
-
+  .col-right-inner{
+    width: 77.8%;
+  }
 }
 @media (max-width : 1024px) {
   .col-right{
@@ -109,8 +111,11 @@ footer {
     width: 100%;
   }
 }
-@media (max-width : 480px) {
-
+@media (max-width : 768px) {
+  .col-right-inner{
+    padding-top: 32px;
+    padding-bottom: 34px;
+  }
 }
 @media (max-width : 360px) {
 

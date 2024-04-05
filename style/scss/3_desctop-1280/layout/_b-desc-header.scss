@@ -1,4 +1,16 @@
 @media (max-width : 1280px) {
+  .header-inner{
+    height: 122px;
+    &-left{      
+      &__logo{
+        width: 40%;
+        margin-right: 88px;
+      }
+      &__description{
+        margin-bottom: -25px;
+      }
+    }
+  }
   .main-menu{
     width: 33vw;
     &__item {

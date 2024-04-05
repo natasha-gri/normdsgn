@@ -1,8 +1,13 @@
 @media (max-width: 1024px) {
   .header-inner{
-    height: 90px;
+    height: 110px;
+    &-left{      
+      &__description{
+        margin-bottom: -11px;
+      }
+    }
   }
   .header-inner-left__logo{
-    width: 14vw;
+    width: 33%;
   }
 }

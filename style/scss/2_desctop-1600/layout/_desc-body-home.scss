@@ -1,4 +1,10 @@
 @media (max-width : 1600px) {
-  
+  .cases-cols{
+    &-col{
+      &__description{
+        padding: 16px 0px 20px 0px;
+      }
+    }
+  }
 
 }

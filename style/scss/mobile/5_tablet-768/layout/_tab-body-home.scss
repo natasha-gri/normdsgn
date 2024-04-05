@@ -2,6 +2,10 @@
   .cases-cols{
     &-col{
       width: calc((100% / 2) - 5px);
+      padding: 14px 14px 0 14px;
+      &__description{
+        
+      }
     }
   }
 }

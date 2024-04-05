@@ -26,7 +26,7 @@
     }
     &__desctop-menu{
       position: absolute;
-      top: 156px;
+      top: 145px;
       left: 0;
     }
 
@@ -40,8 +40,8 @@
     width: 30px;  
     display: block;
     position: absolute;
-    top: 23px;
-    right: 8px;
+    top: 36px;
+    right: -6px;
     z-index: 130;
     opacity: 0;
   }
@@ -49,11 +49,11 @@
 
 .burger-lines{
   display: block;
-  height: 20px;
-  width: 32px;
+  height: 10px;
+  width: 24px;
   position: absolute;
-  top: 32px;
-  right: 10px;
+  top: 51px;
+  right: 0px;
   z-index: 120;
   display: flex;
   flex-direction: column;
@@ -113,8 +113,8 @@
   transform: translateX(0);
 }
 .burger-container input[type="checkbox"]:checked ~ .burger-lines .line1 {
-  transform: rotate(35deg);
+  transform: rotate(20deg);
 }
 .burger-container input[type="checkbox"]:checked ~ .burger-lines .line2 {
-  transform: rotate(-35deg);
+  transform: rotate(-20deg);
 }

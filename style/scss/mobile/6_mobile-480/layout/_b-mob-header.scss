@@ -1,7 +1,15 @@
 @media (max-width: 480px){
-  .header-inner-left__logo{
-    width: 35vw;
-   }
+  .header-inner{
+    height: 100px;
+  }
+  .burger-container{
+    & input[type="checkbox"] {
+      top: 32px;
+    }
+  }
+  .burger-lines{
+    top: 46px;
+  }
   .main-menu{
     width: 68vw;
   }

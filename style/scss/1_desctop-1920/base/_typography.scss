@@ -18,6 +18,25 @@ p {
     letter-spacing: 0.025em;
     color: $p-header;
   }
+.cases-cols-col__description p{
+  font-size: 1em;
+}
+@media (max-width : 1280px){
+  .cases-cols-col__description p{
+    font-size: 0.875em;
+  }
+
+@media (max-width : 480px){
+  .cases-cols-col__description p{
+    font-size: 0.75em;
+  }
+}
+@media (max-width : 360px){
+  .cases-cols-col__description p{
+    font-size: 0.625em;
+  }
+}
+  }
 footer p {
     @extend .first-font;
       font-size: 0.875em; //40px
